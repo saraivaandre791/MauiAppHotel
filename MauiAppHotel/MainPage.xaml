@@ -15,7 +15,7 @@
 
             <Label
                 Text="Hello, World!"
-                FontFamily="ComicNeue"
+                FontFamily="ComicNeue-Bold"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 

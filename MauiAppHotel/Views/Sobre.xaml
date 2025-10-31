@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             Background="{StaticResource Gray100}">
+
+    <VerticalStackLayout Padding="20" Spacing="20"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="Center">
+        <Label Text="Sobre o Aplicativo"
+               FontSize="30"
+               FontAttributes="Bold"
+               TextColor="{StaticResource Primary}" />
+
+        <Frame Padding="15" BackgroundColor="White" CornerRadius="10">
+            <VerticalStackLayout Spacing="10">
+                <Label Text="Desenvolvedor: André"
+                       FontSize="20"
+                       TextColor="Black" />
+                <Label Text="Ano de Desenvolvimento: 2025"
+                       FontSize="20"
+                       TextColor="Black" />
+                <Label Text="Este aplicativo foi criado para facilitar a contratação de hospedagens de forma prática e intuitiva."
+                       FontSize="16"
+                       TextColor="Gray" />
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
