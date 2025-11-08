@@ -54,7 +54,8 @@
                 <Label Text="Escolha sua Suite"/>
 
                 <Picker x:Name="pck_quarto" 
-                        Title="Selecione sua Acomodação" />
+                        Title="Selecione sua Acomodação"
+                        ItemDisplayBinding="{Binding Descricao}"/>
                 
                 <Frame Padding="10"
                        Margin="10">
@@ -84,7 +85,7 @@
 
                 </Frame>
 
-                <Button Text="Avançar"/>
+                <Button Text="Avançar" Clicked="Button_Clicked"/>
 
             </VerticalStackLayout>
         </Frame>
