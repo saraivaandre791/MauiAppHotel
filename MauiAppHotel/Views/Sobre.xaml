@@ -8,23 +8,32 @@
     <VerticalStackLayout Padding="20" Spacing="20"
                          VerticalOptions="CenterAndExpand"
                          HorizontalOptions="Center">
-        <Label Text="Sobre o Aplicativo"
+        <Label Text="Sobre o Hotel"
                FontSize="30"
-               FontAttributes="Bold"
+               FontFamily="ComicNeue-italic"
+              
                TextColor="{StaticResource Primary}" />
 
         <Frame Padding="15" BackgroundColor="White" CornerRadius="10">
             <VerticalStackLayout Spacing="10">
-                <Label Text="Desenvolvedor: André"
+               
+                <Label Text="Desde de 1995"
+                       FontAttributes="Italic"
                        FontSize="20"
                        TextColor="Black" />
-                <Label Text="Ano de Desenvolvimento: 2025"
-                       FontSize="20"
-                       TextColor="Black" />
-                <Label Text="Este aplicativo foi criado para facilitar a contratação de hospedagens de forma prática e intuitiva."
+                <Label Text="No coração de um vale tranquilo cercado por montanhas e riachos cristalinos, nasceu o Hotel Espelunca do Vale.
+                       Fundado por Dona Helena, uma apaixonada por hospitalidade e natureza, o hotel começou como uma pequena pousada com apenas três quartos e muitos sonhos.
+                        Com o tempo, o carinho dos hóspedes e a dedicação da família transformaram o lugar em um refúgio acolhedor, onde cada detalhe conta uma história. 
+                       Os móveis artesanais, os jardins floridos e os sabores da cozinha local são heranças vivas da tradição que começou com um simples desejo: oferecer descanso com alma."
+                       FontFamily="ComicNeue-italic"
                        FontSize="16"
                        TextColor="Gray" />
             </VerticalStackLayout>
         </Frame>
+
+        <Button Text="Voltar"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
+
     </VerticalStackLayout>
 </ContentPage>
